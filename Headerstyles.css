@@ -1,0 +1,71 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E6E8F1; 
+}
+
+.auction-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #1B1F3B; 
+    color: white;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu ul li {
+    margin: 0 15px;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-menu ul li a:hover {
+    color: #6A7FDB; 
+}
+
+.user-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.login-btn, .signup-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.login-btn {
+    background-color: #3AB3C1;
+    color: white;
+    text-decoration: none;
+}
+
+.signup-btn {
+    background-color: #FF6F61; 
+    color: white;
+    text-decoration: none;
+}
+
+.login-btn:hover, .signup-btn:hover {
+    background-color: #6A7FDB; 
+    color: white;
+}
